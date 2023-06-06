@@ -1,0 +1,13 @@
+body {
+    background-color: aqua;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    /*DEIXAR NA MESMA LINHA  */
+    list-style-type: none;
+    /*TIRAR A BOLINHA DA LATERAL DA LISTA */
+    align-items: center;
+    /*DEIXAR ALINHADO AO CENTRO  */
+}
