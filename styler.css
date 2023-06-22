@@ -4,6 +4,7 @@ body {
 }
 
 ul {
+    font-size: large;
     display: flex;
     justify-content: space-between;
     /*DEIXAR NA MESMA LINHA  */
@@ -15,11 +16,18 @@ ul {
 }
 
 nav {
+    margin-top: 10px;
+    /*largura da direita*/
+    width: 74%;
+    /* borda lateral esquerda*/
+    margin: auto;
     background-color: rgb(255, 255, 255);
     align-items: flex-end;
+
 }
 
 a {
+    /* tira o aspecto de link */
     text-decoration: none;
-    color: aqua;
+    color: rgb(2, 54, 54);
 }

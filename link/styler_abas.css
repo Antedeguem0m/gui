@@ -1,0 +1,26 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    margin-top: 10px;
+    /*largura da direita*/
+    width: 45%;
+    /* borda lateral esquerda*/
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    align-items: flex-end;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    list-style-type: none;
+    align-items: flex-end;
+}
+
+.pipoca {
+    background-color: aquamarine;
+}
